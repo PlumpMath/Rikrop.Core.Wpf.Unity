@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Wpf.Unity", "Rikrop.Core.Wpf.Unity\Rikrop.Core.Wpf.Unity.csproj", "{85D0B36E-457A-4AE2-91A9-8F134C4F54D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{73C3C83E-77B8-4872-BC8B-9D9029675953}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRegistration", "TestRegistration\TestRegistration.csproj", "{04309297-5A9D-466D-92A7-826A7C21EF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Wpf.Unity.40", "Rikrop.Core.Wpf.Unity.40\Rikrop.Core.Wpf.Unity.40.csproj", "{925CF889-ED1D-47FC-9971-E2B1726CC39B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85D0B36E-457A-4AE2-91A9-8F134C4F54D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D0B36E-457A-4AE2-91A9-8F134C4F54D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D0B36E-457A-4AE2-91A9-8F134C4F54D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D0B36E-457A-4AE2-91A9-8F134C4F54D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04309297-5A9D-466D-92A7-826A7C21EF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04309297-5A9D-466D-92A7-826A7C21EF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04309297-5A9D-466D-92A7-826A7C21EF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04309297-5A9D-466D-92A7-826A7C21EF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925CF889-ED1D-47FC-9971-E2B1726CC39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925CF889-ED1D-47FC-9971-E2B1726CC39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925CF889-ED1D-47FC-9971-E2B1726CC39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925CF889-ED1D-47FC-9971-E2B1726CC39B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
